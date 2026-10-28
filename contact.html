@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Book a Free Estimate — Cleaning4you</title>
+  <meta name="description" content="Get in touch with Cleaning4you or book your free estimate online. We serve Winchester, Front Royal, Purcellville and the Shenandoah Valley.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="images/cleaning4you-logo.png" alt="Cleaning4you logo">
+        Cleaning4you
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+15719916469" class="header-phone">(571) 991-6469</a>
+        <a href="contact.html" class="btn btn-primary">Get a Free Estimate</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Get In Touch</span>
+        <h1>Let's get your free estimate booked</h1>
+        <p>Reach out with any questions, or pick a time below that works for you — it only takes a minute.</p>
+      </div>
+    </section>
+
+    <section class="section-cream">
+      <div class="container">
+        <div class="contact-grid">
+
+          <div class="contact-info-card">
+            <h3 style="margin-bottom:24px; color: var(--color-purple);">Contact Details</h3>
+            <div class="contact-info-row">
+              <div class="card-icon">📞</div>
+              <div>
+                <h3>Call or Text</h3>
+                <p><a href="tel:+15719916469">(571) 991-6469</a></p>
+                <p><a href="tel:+15713582097">(571) 358-2097</a></p>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="card-icon alt">✉️</div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:cleaningforyoutoo@gmail.com">cleaningforyoutoo@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="card-icon alt2">📍</div>
+              <div>
+                <h3>Service Area</h3>
+                <p>Northern VA &amp; the Shenandoah Valley</p>
+                <p class="area-inline">Winchester, Stephens City, Berryville, Gore, White Post, Boyce, Middletown, Front Royal, Round Hill, Purcellville, Leesburg, Ashburn, Sterling &amp; Chantilly</p>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="card-icon">🕒</div>
+              <div>
+                <h3>Hours</h3>
+                <p>Monday – Saturday, 8am – 6pm</p>
+              </div>
+            </div>          </div>
+
+          <div class="form-card">
+            <h3 style="margin-bottom:20px; color: var(--color-purple);">Send Us a Message</h3>
+            <!-- No backend: js/main.js builds a mailto: link from these fields and opens the visitor's email app. -->
+            <form id="inquiry-form" action="#" method="post" novalidate>
+              <fieldset class="type-picker">
+                <legend>What do you need cleaned?</legend>
+                <label class="type-option">
+                  <input type="radio" name="cleaning-type" value="Recurring Cleaning" data-subject="Recurring Cleaning Inquiry" required>
+                  <span class="type-card"><img src="images/recurring-cleaning-icon.png" alt="" width="40" height="40"><span>Recurring</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="cleaning-type" value="Deep Cleaning" data-subject="Deep Cleaning Inquiry">
+                  <span class="type-card"><img src="images/deep-cleaning-icon.png" alt="" width="40" height="40"><span>Deep Clean</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="cleaning-type" value="Move In / Move Out Cleaning" data-subject="Move In/Out Cleaning Inquiry">
+                  <span class="type-card"><img src="images/move-in-out-icon.png" alt="" width="40" height="40"><span>Move In / Out</span></span>
+                </label>
+                <label class="type-option">
+                  <input type="radio" name="cleaning-type" value="Office &amp; Commercial Cleaning" data-subject="Commercial Cleaning Inquiry">
+                  <span class="type-card"><img src="images/office-commercial-icon.png" alt="" width="40" height="40"><span>Office &amp; Commercial</span></span>
+                </label>
+                <label class="type-option type-option-wide">
+                  <input type="radio" name="cleaning-type" value="Not sure yet / Other" data-subject="Cleaning Inquiry">
+                  <span class="type-card"><span class="type-other" aria-hidden="true">+</span><span>Other / Not sure yet</span></span>
+                </label>
+              </fieldset>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name" required>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" autocomplete="tel" inputmode="tel">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="jane@email.com" autocomplete="email" required>
+                </div>
+                <div class="field">
+                  <label for="city">City</label>
+                  <select id="city" name="city" required>
+                    <option value="" selected disabled>Choose your city</option>
+                    <option>Winchester</option>
+                    <option>Stephens City</option>
+                    <option>Berryville</option>
+                    <option>Gore</option>
+                    <option>White Post</option>
+                    <option>Boyce</option>
+                    <option>Middletown</option>
+                    <option>Front Royal</option>
+                    <option>Round Hill</option>
+                    <option>Purcellville</option>
+                    <option>Leesburg</option>
+                    <option>Ashburn</option>
+                    <option>Sterling</option>
+                    <option>Chantilly</option>
+                    <option>Other / not listed</option>
+                  </select>
+                </div>
+              </div>
+
+              <fieldset class="pill-group">
+                <legend>Best way to reach you <span class="optional">(optional, pick as many as you like)</span></legend>
+                <label class="pill-option"><input type="checkbox" name="contact-method" value="Email"><span>Email</span></label>
+                <label class="pill-option"><input type="checkbox" name="contact-method" value="Phone call"><span>Call</span></label>
+                <label class="pill-option"><input type="checkbox" name="contact-method" value="Text message"><span>Text</span></label>
+                <label class="pill-option"><input type="checkbox" name="contact-method" value="Any" id="contact-any"><span>Any</span></label>
+              </fieldset>
+
+              <div class="field">
+                <label for="message">Anything else we should know? <span class="optional">(optional)</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="Home size, pets, timing, special requests..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <p class="form-note">This opens your email app with everything filled in. Just press send.</p>
+
+              <div class="mail-fallback" id="mail-fallback" hidden>
+                <p><strong>Nothing opened?</strong> Copy your message and email it to <a href="mailto:cleaningforyoutoo@gmail.com">cleaningforyoutoo@gmail.com</a>.</p>
+                <textarea id="fallback-text" rows="7" readonly></textarea>
+                <button type="button" class="btn btn-outline btn-block" id="copy-message">Copy message</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section-lavender">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Book Online</span>
+          <h2>Pick a time for your free estimate</h2>
+          <p>Choose a slot that works for you — we'll confirm the details shortly after.</p>
+        </div>
+        <div class="calendar-embed">
+          <!-- Google Calendar Appointment Scheduling begin -->
+          <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0moXdynCwgej1zqcUVacGTuKJs5PxzsayXjt-piYllYOfPGFKfLrVgVLx3K0SpoEdNJNsAEe3M?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+          <!-- end Google Calendar Appointment Scheduling -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="images/cleaning4you-logo.png" alt="Cleaning4you logo">
+            <span>Cleaning4you</span>
+          </div>
+          <p>Trusted, friendly home and office cleaning for families across Northern VA &amp; the Shenandoah Valley.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Recurring Cleaning</a></li>
+            <li><a href="services.html">Deep Cleaning</a></li>
+            <li><a href="services.html">Move In/Out</a></li>
+            <li><a href="services.html">Office Cleaning</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <ul>
+            <li>(571) 991-6469</li>
+            <li>cleaningforyoutoo@gmail.com</li>
+            <li>Serving Northern VA &amp; the Shenandoah Valley</li>
+            <li>Mon–Sat, 8am–6pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Cleaning4you. All rights reserved.</span>      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
